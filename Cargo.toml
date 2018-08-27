@@ -1,0 +1,28 @@
+[package]
+name = "hatebu2mastodon"
+version = "0.1.0"
+authors = ["nacika <nacika.inscatolare@gmail.com>"]
+
+[dependencies]
+iron="*"
+rustc-serialize = "*"
+plugin = "*"
+persistent = "*"
+toml = "*"
+hyper = "*"
+router = "*"
+url = "*"
+serde_derive = "*"
+serde = "*"
+
+[dependencies.bodyparser]
+git = "https://github.com/iron/body-parser.git"
+
+[dependencies.queryst]
+git = "https://github.com/rustless/queryst"
+
+[dependencies.regex]
+git = "https://github.com/rust-lang-nursery/regex.git"
+
+[dependencies.pocket]
+git = "https://github.com/kstep/rust-pocket.git"
