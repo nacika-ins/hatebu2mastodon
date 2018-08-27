@@ -14,6 +14,7 @@ router = "*"
 url = "*"
 serde_derive = "*"
 serde = "*"
+mammut = { git = "https://github.com/nacika-ins/Mammut.git", version = "0.9.0", branch = "develop" }
 
 [dependencies.bodyparser]
 git = "https://github.com/iron/body-parser.git"
@@ -24,5 +25,3 @@ git = "https://github.com/rustless/queryst"
 [dependencies.regex]
 git = "https://github.com/rust-lang-nursery/regex.git"
 
-[dependencies.pocket]
-git = "https://github.com/kstep/rust-pocket.git"
